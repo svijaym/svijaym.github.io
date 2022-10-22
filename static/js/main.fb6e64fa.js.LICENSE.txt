@@ -1,3 +1,9 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
 /**
  * @license React
  * react-dom.production.min.js
@@ -38,13 +44,11 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-/**
- * @remix-run/router v1.0.2
+/** @license React v16.14.0
+ * react.production.min.js
  *
- * Copyright (c) Remix Software Inc.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
+ * LICENSE file in the root directory of this source tree.
  */
