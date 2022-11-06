@@ -1,0 +1,66 @@
+import { Flex, Heading, Image, Stack, Text } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
+import styles from "./Hero.module.css";
+export default function SplitScreen() {
+  return (
+    <div id="hero" style={{ backgroundColor: "#edf2f8" }}>
+      <Stack minH={"80vh"} direction={{ base: "column", md: "row" }}>
+        <Flex p={8} flex={1} align={"center"} justify={"center"}>
+          <Stack
+            spacing={{ base: "4", md: "5" }}
+            w={"full"}
+            maxW={"lg"}
+            textAlign={{ base: "center", md: "start" }}
+          >
+            <Box
+              margin={{ base: "auto", md: "0" }}
+              display="flex"
+              fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
+            >
+              Hi{" "}
+              <Image
+                width="50px"
+                style={{ marginLeft: "6px" }}
+                src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif"
+                alt="hand waveing"
+              />
+              ,
+            </Box>
+            <Text fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}>
+              I'm{" "}
+              <Text
+                fontWeight="bold"
+                fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
+              >
+                S Vijayaprasad{" "}
+              </Text>{" "}
+            </Text>
+            <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
+              <Text className={styles.Subhead}>Full Stack Web Developer</Text>
+            </Heading>
+            {/* <Text fontSize={{ base: 'md', lg: 'lg' }} color={'#ff6225'}>
+            The project board is an exclusive resource for contract work. It's
+            perfect for freelancers, agencies, and moonlighters.
+          </Text> */}
+          </Stack>
+        </Flex>
+        <Flex flex={1}>
+          <Box w="100%">
+            <Image
+              alt={"Login Image"}
+              objectFit={"cover"}
+              // w="100%"
+              marginTop="20px"
+              boxSize="500px"
+              borderRadius="40%"
+              src={
+                "https://user-images.githubusercontent.com/101625055/200088157-840f9dac-62b1-4829-a1bb-b3ebe450b90d.jpg"
+              }
+            />
+            
+          </Box>
+        </Flex>
+      </Stack>
+    </div>
+  );
+}

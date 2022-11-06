@@ -1,13 +1,31 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./Components/Navbar";
-import Home from "./Components/Home";
+import { AboutSection } from "./components/About/About";
+import ContactForm from "./components/Contact/Contact";
+import GitCalender from "./components/Git/GitCalender";
+import GitStats from "./components/Git/GitStats";
+import SplitScreen from "./components/Hero/Hero";
+import Simple from "./components/Navbar/Navbar";
+import { ProjectsSection } from "./components/Project/Project";
+import { SkillsSection } from "./components/Skill/SkillsSection";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
+      <Simple />
+
+      <SplitScreen />
+
+      <AboutSection />
+
+      <SkillsSection />
+
+      <ProjectsSection />
+
+      <GitCalender />
+
+      <GitStats />
+
+      <ContactForm />
     </div>
   );
 }
