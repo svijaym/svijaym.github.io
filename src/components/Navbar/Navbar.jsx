@@ -6,7 +6,6 @@ import {
   HStack,
   IconButton,
   useDisclosure,
-  useColorModeValue,
   Stack,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
@@ -22,7 +21,8 @@ export default function Navbar() {
   return (
     <>
       <Box
-        bg={useColorModeValue("#eaf8f8", "#eaf8f8")}
+        // bg={useColorModeValue("#eaf8f8", "#eaf8f8")}
+        bg="#322659"
         px={4}
         className={styles.mainBox}
       >
@@ -108,7 +108,17 @@ export default function Navbar() {
               </Link>
 
               <a href="S Vijayaprasad Resume.pdf" download>
-                <button>Resume</button>
+                <button
+                  style={{
+                    backgroundColor: "#ff6326",
+                    border: "none",
+                    borderRadius: "10px",
+                    padding: "5px",
+                    color: "white",
+                  }}
+                >
+                  Resume
+                </button>
               </a>
             </HStack>
           </HStack>
@@ -167,9 +177,21 @@ export default function Navbar() {
               >
                 <div className={styles.nav}>Contact</div>
               </Link>
-              <a href="S Vijayaprasad Resume.pdf" download>
-                <button>Resume</button>
-              </a>
+              <div className={styles.nav}>
+                <a href="S Vijayaprasad Resume.pdf" download>
+                  <button
+                    style={{
+                      backgroundColor: "#ff6326",
+                      border: "none",
+                      borderRadius: "10px",
+                      padding: "5px",
+                      color: "white",
+                    }}
+                  >
+                    Resume
+                  </button>
+                </a>
+              </div>
             </Stack>
           </Box>
         ) : null}

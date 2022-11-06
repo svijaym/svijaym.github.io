@@ -6,9 +6,10 @@
     justify-content: center;
     padding-bottom: 10vh;
     padding-top: 10vh;
+    margin-top: -100px;
   }
   .projectsSectionCont h1 {
-    color: #383874;
+    /* color: #383874; */
   }
   .projectsSectionCont h2 {
     color: rgb(208, 135, 104);
@@ -43,7 +44,8 @@
     width: 100%;
     margin: auto;
     height: 500px;
-    border-radius: 5px;
+    border-radius: 15px;
+    border: 2px solid white;
     text-align: center;
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
       rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;

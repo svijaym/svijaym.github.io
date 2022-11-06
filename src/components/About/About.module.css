@@ -1,5 +1,5 @@
 .rootCont {
-  width: 95%;
+  width: 90%;
   margin: auto;
   text-align: center;
   height: 90vh;
@@ -8,6 +8,7 @@
   justify-content: space-around;
   padding-top: 10vh;
   padding-bottom: 10vh;
+  /* background-color: #F7FAFC; */
 }
 .rootCont h1 {
   color: #ff6225;
@@ -23,7 +24,7 @@
   display: grid;
   grid-template-columns: 30% 60%;
   gap: 10%;
-  
+  text-align: center;
   font-size: 30px;
 }
 .mainCont > div {
@@ -48,6 +49,8 @@
 @media only screen and (max-width: 1024px) {
   .rootCont {
     width: 90%;
+    margin-top: 200px;
+    margin-bottom: 200px;
   }
   .mainCont {
     display: flex;

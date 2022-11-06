@@ -8,11 +8,11 @@
   padding-top: 10vh;
   padding-bottom: 10vh;
   text-align: center;
-  background-color: #edf2f8;
 }
 
 .rootCont h1 {
-  color: #383874;
+  /* color: #383874; */
+  color: #322659;
 
   margin: 0 auto;
 }
@@ -55,7 +55,7 @@
 }
 .skillIcon {
   font-size: 60px;
-  color: #ff6225;
+  /* color: #ff6225; */
 }
 .expSkillIcon {
   font-size: 31px;

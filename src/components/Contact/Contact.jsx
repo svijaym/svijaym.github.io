@@ -28,10 +28,10 @@ export default function ContactForm() {
 
     emailjs
       .sendForm(
-        "service_tjnfsjk",
-        "template_nbhj3a8",
+        "service_9d5nipg",
+        "template_sanh3sd",
         e.target,
-        "g1zTxuziHOH0lHbPQ"
+        "wDfjM9DD08kshAt9g"
       )
       .then(
         (result) => {
@@ -52,18 +52,19 @@ export default function ContactForm() {
       );
     e.target.reset();
   };
+
   return (
     <div id="contact">
       <Container
-        bg="#02054B"
         maxW="full"
         mt={0}
         centerContent
         overflow="hidden"
+        marginTop="-10px"
       >
         <Flex>
           <Box
-            bg="#02054B"
+            bg="#322659"
             color="white"
             borderRadius="lg"
             m={{ sm: 4, md: 16, lg: 10 }}
@@ -122,30 +123,47 @@ export default function ContactForm() {
                       px={5}
                       alignItems="flex-start"
                     >
-                      <IconButton
+                      {/* <IconButton
                         aria-label="facebook"
                         variant="ghost"
                         size="lg"
                         isRound={true}
                         _hover={{ bg: "#0D74FF" }}
                         icon={<MdEmail size="30px" />}
-                      />
-                      <IconButton
-                        aria-label="discord"
-                        variant="ghost"
-                        size="lg"
-                        isRound={true}
-                        _hover={{ bg: "#0D74FF" }}
-                        icon={<BsLinkedin size="28px" />}
-                      />
-                      <IconButton
-                        aria-label="github"
-                        variant="ghost"
-                        size="lg"
-                        isRound={true}
-                        _hover={{ bg: "#0D74FF" }}
-                        icon={<BsGithub size="32px" />}
-                      />
+                        onPress={() =>
+                          Linking.openURL("mailto:svijaym6@example.com")
+                        }
+                        title="svijaym6@example.com"
+                      /> */}
+
+                      <a
+                        href="https://www.linkedin.com/in/s-vijayaprasad/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <IconButton
+                          aria-label="discord"
+                          variant="ghost"
+                          size="lg"
+                          isRound={true}
+                          _hover={{ bg: "#0D74FF" }}
+                          icon={<BsLinkedin size="28px" />}
+                        />
+                      </a>
+                      <a
+                        href="https://github.com/svijaym"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <IconButton
+                          aria-label="github"
+                          variant="ghost"
+                          size="lg"
+                          isRound={true}
+                          _hover={{ bg: "#0D74FF" }}
+                          icon={<BsGithub size="32px" />}
+                        />
+                      </a>
                     </HStack>
                   </Box>
                 </WrapItem>

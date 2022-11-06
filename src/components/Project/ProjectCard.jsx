@@ -9,7 +9,7 @@ export function ProjectCard({ name, img, git, link, stacks, about }) {
         <img src={img} alt="" className={styles.image} />
         <p
           style={{
-            color: "#ff6225",
+            color: "black",
             fontSize: "25px",
             fontWeight: "400",
             margin: "5px 0 0 0",

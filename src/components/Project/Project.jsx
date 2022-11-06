@@ -7,7 +7,7 @@ import { SiReact } from "react-icons/si";
 import { SiChakraui } from "react-icons/si";
 
 import { Fade } from "react-awesome-reveal";
-import { Text } from "@chakra-ui/react";
+import { Heading } from "@chakra-ui/react";
 const projects = [
   {
     name: "Sugarcosmetics-Clone",
@@ -63,9 +63,9 @@ export function ProjectsSection() {
   return (
     <div className={styles.projectsSectionCont} id="projects">
       <Fade bottom>
-        <Text as={"h1"} fontSize={{ base: "xl", md: "3xl" }} mb={8}>
+        <Heading as={"h1"} fontSize={{ base: "xl", md: "3xl" }} mb={8} color='#322659'>
           Projects
-        </Text>
+        </Heading>
       </Fade>
       <div className={styles.projectGrid}>
         {projects.map((project) => (

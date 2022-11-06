@@ -3,7 +3,8 @@ import { Box } from "@chakra-ui/react";
 import styles from "./Hero.module.css";
 export default function SplitScreen() {
   return (
-    <div id="hero" style={{ backgroundColor: "#edf2f8" }}>
+    <div >
+      {/* style={{ backgroundColor: "#edf2f8" }} */}
       <Stack minH={"80vh"} direction={{ base: "column", md: "row" }}>
         <Flex p={8} flex={1} align={"center"} justify={"center"}>
           <Stack
@@ -36,7 +37,7 @@ export default function SplitScreen() {
               </Text>{" "}
             </Text>
             <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
-              <Text className={styles.Subhead}>Full Stack Web Developer</Text>
+              <Text className={styles.Subhead}>A Full Stack Web Developer</Text>
             </Heading>
             {/* <Text fontSize={{ base: 'md', lg: 'lg' }} color={'#ff6225'}>
             The project board is an exclusive resource for contract work. It's
@@ -51,13 +52,12 @@ export default function SplitScreen() {
               objectFit={"cover"}
               // w="100%"
               marginTop="20px"
-              boxSize="500px"
+              boxSize="470px"
               borderRadius="40%"
               src={
                 "https://user-images.githubusercontent.com/101625055/200088157-840f9dac-62b1-4829-a1bb-b3ebe450b90d.jpg"
               }
             />
-            
           </Box>
         </Flex>
       </Stack>

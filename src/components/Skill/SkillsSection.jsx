@@ -1,30 +1,30 @@
+import { SkillCard } from "./SkillCard";
+import styles from "./SkillsSection.module.css";
+import { GrReactjs } from "react-icons/gr";
+import { SiRedux } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
+import { SiMaterialui } from "react-icons/si";
+import { SiHtml5 } from "react-icons/si";
+import { SiCss3 } from "react-icons/si";
+import { SiNodedotjs } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 
-import { SkillCard } from "./SkillCard"
-import styles from "./SkillsSection.module.css"
-import { GrReactjs } from "react-icons/gr"
-import { SiRedux } from "react-icons/si"
-import { SiJavascript } from "react-icons/si"
-import { SiMaterialui } from "react-icons/si"
-import { SiHtml5 } from "react-icons/si"
-import { SiCss3 } from "react-icons/si"
-import { SiNodedotjs } from "react-icons/si"
-import { SiMongodb } from "react-icons/si"
+import { FaGitAlt } from "react-icons/fa";
+import { SiNpm } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 
-import { FaGitAlt } from "react-icons/fa"
-import { SiNpm } from "react-icons/si"
-import { SiPostman } from "react-icons/si"
-import { SiExpress } from "react-icons/si"
-
-import {Fade} from "react-awesome-reveal"
-import { Text } from "@chakra-ui/react"
+import { Fade } from "react-awesome-reveal";
+import { Heading } from "@chakra-ui/react";
 
 export function SkillsSection() {
   return (
     <div className={styles.rootCont} id="skills">
       <Fade bottom>
-      <Text as={"h1"} colorScheme="#383874" fontSize={{ base: "xl", md: "3xl" }} mb={8}>
-      Front-end skills
-        </Text>        
+        {/* colorScheme="#383874" */}
+        <Heading as={"h1"} fontSize={{ base: "xl", md: "3xl" }} mb={8}>
+          Front-end skills
+        </Heading>
         <div className={styles.skillsContFront}>
           <SkillCard
             skill="React"
@@ -68,17 +68,19 @@ export function SkillsSection() {
             icon={
               <SiCss3 className={`${styles.skillIcon} ${styles.cssIcon}`} />
             }
-
-            
           />
-
-          
         </div>
-        <Text as={"h1"} colorScheme="#383874" fontSize={{ base: "xl", md: "3xl" }} mb={8}>
-      Back-end skills
-        </Text> 
+        <Heading
+          as={"h1"}
+          // colorScheme="#383874"
+          fontSize={{ base: "xl", md: "3xl" }}
+          mb={8}
+        >
+          Back-end skills
+        </Heading>
         <div className={styles.skillsContBack}>
-          <SkillCard className={styles.nodess}
+          <SkillCard
+            className={styles.nodess}
             skill="Node"
             icon={
               <SiNodedotjs
@@ -105,10 +107,15 @@ export function SkillsSection() {
             }
           />
         </div>
-       
-              <Text as={"h1"} colorScheme="#383874" fontSize={{ base: "xl", md: "3xl" }} mb={8}>
-      Tools
-        </Text> 
+
+        <Heading
+          as={"h1"}
+          // colorScheme="#383874"
+          fontSize={{ base: "xl", md: "3xl" }}
+          mb={8}
+        >
+          Tools
+        </Heading>
         <div className={styles.toolsDiv}>
           <SkillCard
             skill="Git"
@@ -129,5 +136,5 @@ export function SkillsSection() {
         </div>
       </Fade>
     </div>
-  )
+  );
 }
