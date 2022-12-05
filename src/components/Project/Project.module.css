@@ -137,7 +137,7 @@
       gap: 5%;
     }
     .projInfo {
-      display: none;
+      display: fit;
     }
     .stacksDiv {
       display: none;

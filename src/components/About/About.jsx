@@ -6,7 +6,7 @@ export function AboutSection() {
   return (
     <div className={styles.rootCont} id="about">
       <Fade bottom>
-        <Heading fontSize={{ base: "xl", md: "3xl" }} color='#322659'>
+        <Heading fontSize={{ base: "xl", md: "3xl" }} color="#322659">
           About
         </Heading>
         <div className={styles.mainCont}>
@@ -21,7 +21,10 @@ export function AboutSection() {
             {/* <h2>
               I am <span>S Vijayaprasad</span>
             </h2> */}
-            <Text fontSize="2xl" textAlign='center'>
+            <Text
+              fontSize={{ sm: "25px", md: "30px", lg: "35px" }}
+              textAlign="center"
+            >
               I am S Vijayaprasad, I am a Full stack web developer(MERN)
               upskilled by Masai School. I did my graduation in Mechanical
               Engineering from VTU Belagavi. Also Qualified in GATE examination

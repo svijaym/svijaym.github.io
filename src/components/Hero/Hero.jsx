@@ -43,10 +43,23 @@ export default function SplitScreen() {
             The project board is an exclusive resource for contract work. It's
             perfect for freelancers, agencies, and moonlighters.
           </Text> */}
+            <a href="S Vijayaprasad Resume.pdf" download>
+              <button
+                style={{
+                  backgroundColor: "#ff6326",
+                  border: "none",
+                  borderRadius: "10px",
+                  padding: "10px",
+                  color: "white",
+                }}
+              >
+                Resume
+              </button>
+            </a>
           </Stack>
         </Flex>
-        <Flex flex={1}>
-          <Box w="100%">
+        <Flex flex={1} align={"center"} justify={"center"}>
+          <Box w="100%" margin={{ base: "auto", md: "0",sm:"100" }}>
             <Image
               alt={"Login Image"}
               objectFit={"cover"}

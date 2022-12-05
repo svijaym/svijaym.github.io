@@ -29,7 +29,13 @@ export default function Navbar() {
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}
-            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+            icon={
+              isOpen ? (
+                <CloseIcon color="#322659" />
+              ) : (
+                <HamburgerIcon color="#322659" />
+              )
+            }
             aria-label={"Open Menu"}
             display={{ md: "none" }}
             onClick={isOpen ? onClose : onOpen}
@@ -107,7 +113,10 @@ export default function Navbar() {
                 <div className={styles.nav}>Contact</div>
               </Link>
 
-              <a href="S Vijayaprasad Resume.pdf" download>
+              <a
+                href="https://drive.google.com/file/d/1_05jXn5Hx5OGJulyb-gY5zBnaQTdh81S/view?usp=sharing"
+                target="blank"
+              >
                 <button
                   style={{
                     backgroundColor: "#ff6326",
