@@ -3,7 +3,7 @@ import styles from "./SkillsSection.module.css";
 import { GrReactjs } from "react-icons/gr";
 import { SiRedux } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
-import { SiMaterialui } from "react-icons/si";
+import { SiChakraui } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
@@ -49,11 +49,9 @@ export function SkillsSection() {
             }
           />
           <SkillCard
-            skill="Material Ui"
+            skill="Chakra Ui"
             icon={
-              <SiMaterialui
-                className={`${styles.skillIcon} ${styles.muiIcon}`}
-              />
+              <SiChakraui className={`${styles.skillIcon} ${styles.chkIcon}`} />
             }
           />
 
