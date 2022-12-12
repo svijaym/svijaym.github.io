@@ -12,8 +12,8 @@ export function AboutSection() {
         <div className={styles.mainCont}>
           <div className={styles.profilePicCont}>
             <img
-              src="https://user-images.githubusercontent.com/101625055/200088157-840f9dac-62b1-4829-a1bb-b3ebe450b90d.jpg"
-              alt=""
+              src="https://user-images.githubusercontent.com/101625055/207110262-745a5248-43d1-446b-9863-f8e74c1aba8f.jpeg"
+              alt="vp"
               className={styles.profilePic}
             />
           </div>
