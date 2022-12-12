@@ -39,36 +39,34 @@ export default function SplitScreen() {
             <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
               <Text className={styles.Subhead}>A Full Stack Web Developer</Text>
             </Heading>
-            {/* <Text fontSize={{ base: 'md', lg: 'lg' }} color={'#ff6225'}>
-            The project board is an exclusive resource for contract work. It's
-            perfect for freelancers, agencies, and moonlighters.
-          </Text> */}
-            <a href="S Vijayaprasad Resume.pdf" download>
-              <button
-                style={{
-                  backgroundColor: "#ff6326",
-                  border: "none",
-                  borderRadius: "10px",
-                  padding: "10px",
-                  color: "white",
-                }}
-              >
-                Resume
-              </button>
-            </a>
+            <Box>
+              <a href="S Vijayaprasad Resume.pdf" download>
+                <button
+                  style={{
+                    backgroundColor: "#ff6326",
+                    border: "none",
+                    borderRadius: "10px",
+                    padding: "10px",
+                    color: "white",
+                  }}
+                >
+                  Resume
+                </button>
+              </a>
+            </Box>
           </Stack>
         </Flex>
         <Flex flex={1} align={"center"} justify={"center"}>
-          <Box w="100%" margin={{ base: "auto", md: "0",sm:"100" }}>
+          <Box w="100%" margin={{ base: "auto", md: "0", sm: "100" }}>
             <Image
-              alt={"Login Image"}
-              objectFit={"cover"}
+              // alt={"Login Image"}
+              // objectFit={"cover"}
               // w="100%"
               marginTop="20px"
-              boxSize="470px"
-              borderRadius="40%"
+              boxSize="500px"
+              borderRadius="2%"
               src={
-                "https://user-images.githubusercontent.com/101625055/200088157-840f9dac-62b1-4829-a1bb-b3ebe450b90d.jpg"
+                "https://user-images.githubusercontent.com/101625055/207065407-d7b1f180-46b5-4cac-9b93-d8e6998d6424.jpeg"
               }
             />
           </Box>
@@ -77,3 +75,4 @@ export default function SplitScreen() {
     </div>
   );
 }
+// https://user-images.githubusercontent.com/101625055/200088157-840f9dac-62b1-4829-a1bb-b3ebe450b90d.jpg

@@ -1,3 +1,15 @@
+.rootCont {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  /* background-color: #F7FAFC; */
+}
 .Subhead {
   text-transform: uppercase;
   background-image: linear-gradient(

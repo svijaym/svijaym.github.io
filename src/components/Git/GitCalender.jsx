@@ -6,7 +6,7 @@ const GitCalender = () => {
   const selectLastHalfYear = (contributions) => {
     const currentYear = new Date().getFullYear();
     const currentMonth = new Date().getMonth();
-    const shownMonths = 12;
+    const shownMonths = 10;
 
     return contributions.filter((day) => {
       const date = new Date(day.date);
@@ -19,8 +19,9 @@ const GitCalender = () => {
       );
     });
   };
+  
   return (
-    <>
+    <div>
       <div style={{ textAlign: "center" }}>
         <Heading color="#322659">Github Calender and Stats</Heading>
       </div>
@@ -31,10 +32,12 @@ const GitCalender = () => {
         transformData={selectLastHalfYear}
         blockSize={20}
         fontSize={20}
+        // hideColorLegend
+        // hideTotalCount
       >
         <ReactTooltip delayShow={20} html />
       </GitHubCalendar>
-    </>
+      </div>
   );
 };
 
