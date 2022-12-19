@@ -5,7 +5,6 @@ export function SkillCard({ skill, icon }) {
   return (
     <Box className={styles.card}>
       {icon}
-
       <Text fontWeight="bold" fontSize={{ base: "md", md: "xl" }}>
         {skill}
       </Text>

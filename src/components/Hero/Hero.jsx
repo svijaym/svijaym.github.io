@@ -28,7 +28,10 @@ export default function Main() {
               />
               ,
             </Box>
-            <Text fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }} fontFamily="sans-serif">
+            <Text
+              fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
+              fontFamily="sans-serif"
+            >
               I'm{" "}
               <Text
                 fontWeight="bold"
@@ -59,7 +62,7 @@ export default function Main() {
           </Stack>
         </Flex>
         <Flex flex={1} align={"center"} justify={"center"}>
-          <Box w="100%" h="auto" margin={{ base: "auto", md: "0", sm: "100" }}>
+          <Box w="80%" h="auto" margin={{ base: "auto", md: "0", sm: "100" }}>
             <Image
               marginTop="20px"
               boxSize="400px"

@@ -8,13 +8,10 @@
   padding-top: 10vh;
   margin-top: -100px;
 }
-.projectsSectionCont h1 {
-  /* color: #383874; */
-}
-.projectsSectionCont h2 {
+/* .projectsSectionCont h2 {
   color: rgb(208, 135, 104);
   margin: 0;
-}
+} */
 .projectsSectionCont > p {
   font-size: 40px;
   font-weight: 400;
@@ -83,7 +80,7 @@ a {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-
+  flex-wrap: wrap;
   background-color: #383874;
   color: #ffff;
   font-weight: 500;
@@ -104,6 +101,10 @@ a {
   justify-content: center;
   align-items: center;
 }
+.stacksDiv:hover {
+  color: #ff6225;
+}
+
 .stacksDiv2 {
   display: none;
 }
@@ -115,7 +116,6 @@ a {
 }
 .projInfo > p {
   font-size: 17px;
-  color: gray;
 }
 @media only screen and (max-width: 1024px) {
   .projectsSectionCont {

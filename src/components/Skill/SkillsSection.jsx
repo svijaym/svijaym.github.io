@@ -8,12 +8,10 @@ import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
-
 import { FaGitAlt } from "react-icons/fa";
 import { SiNpm } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
-
 import { Fade } from "react-awesome-reveal";
 import { Heading } from "@chakra-ui/react";
 
@@ -22,9 +20,7 @@ export function SkillsSection() {
     <div className={styles.rootCont} id="skills">
       <Fade bottom>
         {/* colorScheme="#383874" */}
-        <Heading as={"h1"} fontSize={{ base: "xl", md: "3xl" }} mb={8}>
-          Front-end skills
-        </Heading>
+        <Heading color="#322659">Front-End Skills</Heading>
         <div className={styles.skillsContFront}>
           <SkillCard
             skill="React"
@@ -54,7 +50,6 @@ export function SkillsSection() {
               <SiChakraui className={`${styles.skillIcon} ${styles.chkIcon}`} />
             }
           />
-
           <SkillCard
             skill="Html"
             icon={
@@ -68,14 +63,7 @@ export function SkillsSection() {
             }
           />
         </div>
-        <Heading
-          as={"h1"}
-          // colorScheme="#383874"
-          fontSize={{ base: "xl", md: "3xl" }}
-          mb={8}
-        >
-          Back-end skills
-        </Heading>
+        <Heading color="#322659">Back-End Skills</Heading>
         <div className={styles.skillsContBack}>
           <SkillCard
             className={styles.nodess}
@@ -106,14 +94,7 @@ export function SkillsSection() {
           />
         </div>
 
-        <Heading
-          as={"h1"}
-          // colorScheme="#383874"
-          fontSize={{ base: "xl", md: "3xl" }}
-          mb={8}
-        >
-          Tools
-        </Heading>
+        <Heading color="#322659">Tools</Heading>
         <div className={styles.toolsDiv}>
           <SkillCard
             skill="Git"

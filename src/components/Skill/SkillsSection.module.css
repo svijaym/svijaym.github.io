@@ -1,5 +1,4 @@
 .rootCont {
-  /* height: 90vh; */
   width: 85%;
   margin: auto;
   display: flex;
@@ -10,13 +9,6 @@
   text-align: center;
 }
 
-.rootCont h1 {
-  /* color: #383874; */
-  color: #322659;
-
-  margin: 0 auto;
-}
-
 .skillsContFront {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -24,9 +16,6 @@
   align-items: center;
   border-radius: 10px;
   margin-bottom: 50px;
-  /* height: auto; */
-  /* margin-left: -50px; */
-  /* height: 50vh; */
 }
 .skillsContBack {
   display: grid;
@@ -36,7 +25,6 @@
   border-radius: 10px;
   margin-bottom: 50px;
   height: auto;
-  /* height: 50vh; */
 }
 .toolsDiv {
   display: grid;
@@ -45,7 +33,6 @@
   align-items: center;
   border-radius: 10px;
   margin-bottom: 50px;
-  /* height: 50vh; */
 }
 .skillCard {
   display: flex;
@@ -57,7 +44,6 @@
 }
 .skillIcon {
   font-size: 60px;
-  /* color: #ff6225; */
 }
 .expSkillIcon {
   font-size: 31px;
@@ -101,42 +87,34 @@
 @media only screen and (max-width: 600px) {
   .skillIcon {
     font-size: 30px;
-    /* color: rgb(208,135,104); */
   }
   .rootCont {
     width: 90%;
   }
   .skillsContFront {
     grid-template-columns: repeat(2, 1fr);
-    /* height: 120vh; */
   }
   .skillsContBack {
     grid-template-columns: repeat(2, 1fr);
-    /* height: 120vh; */
   }
   .toolsDiv {
     grid-template-columns: repeat(2, 1fr);
-    /* height: 120vh; */
   }
 }
 @media only screen and (max-width: 250px) {
   .skillIcon {
     font-size: 30px;
-    /* color: rgb(208,135,104); */
   }
   .rootCont {
     width: 90%;
   }
   .skillsContFront {
     grid-template-columns: repeat(1, 1fr);
-    /* height: 120vh; */
   }
   .skillsContBack {
     grid-template-columns: repeat(1, 1fr);
-    /* height: 120vh; */
   }
   .toolsDiv {
     grid-template-columns: repeat(1, 1fr);
-    /* height: 120vh; */
   }
 }

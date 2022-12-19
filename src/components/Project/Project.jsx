@@ -65,16 +65,8 @@ const projects = [
 export function ProjectsSection() {
   return (
     <div className={styles.projectsSectionCont} id="projects">
-      <Fade bottom>
-        <Heading
-          as={"h1"}
-          fontSize={{ base: "xl", md: "3xl" }}
-          mb={8}
-          color="#322659"
-        >
-          Projects
-        </Heading>
-      </Fade>
+      <Heading color="#322659">Projects</Heading>
+      <br />
       <div className={styles.projectGrid}>
         {projects.map((project) => (
           <Fade bottom>

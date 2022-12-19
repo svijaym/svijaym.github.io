@@ -6,9 +6,9 @@ export default function AboutMe() {
   return (
     <div className={styles.rootCont} id="about">
       <Fade bottom>
-        <Heading fontSize={{ base: "xl", md: "3xl" }} color="#322659">
-          About
-        </Heading>
+        {/* fontSize={{ base: "3xl", md: "2xl" }} */}
+        <Heading color="#322659">About Me</Heading>
+        <br />
         <div className={styles.mainCont}>
           <div>
             <img
