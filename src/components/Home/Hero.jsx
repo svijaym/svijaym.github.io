@@ -1,10 +1,9 @@
 import { Flex, Heading, Image, Stack, Text } from "@chakra-ui/react";
 import { Box } from "@chakra-ui/react";
 import styles from "./Hero.module.css";
-export default function Main() {
+export default function Home() {
   return (
     <div id="hero" style={{ width: "85%", margin: "auto" }}>
-      {/* style={{ backgroundColor: "#edf2f8" }} */}
       <Stack minH={"80vh"} direction={{ base: "column", md: "row" }}>
         <Flex p={8} flex={1} align={"center"} justify={"center"}>
           <Stack

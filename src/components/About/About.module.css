@@ -12,23 +12,22 @@
 .mainCont {
   display: grid;
   grid-template-columns: 25% 55%;
-  gap: 15%;
+  gap: 10%;
   text-align: center;
   font-size: 30px;
 }
 .mainCont > div {
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   text-align: left !important;
 }
 
 .profilePic {
   text-align: right;
-  width: 100%;
+  width: 80%;
+  height: 80%;
   margin: auto;
-
   border-radius: 10px;
 }
 @media only screen and (max-width: 1024px) {
