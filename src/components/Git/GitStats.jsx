@@ -12,6 +12,7 @@ const GitStats = () => {
           />
         </a>
       </div>
+      <br />
       <div
         style={{
           width: "60%",
@@ -20,20 +21,24 @@ const GitStats = () => {
           margin: "auto",
         }}
       >
-        <a href="https://github.com/svijaym">
-          <img
-            align="center"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=svijaym"
-            alt="stats-short"
-          />
-        </a>
-        <a href="https://github.com/svijaym">
-          <img
-            align="left"
-            src="https://github-readme-stats.vercel.app/api?username=svijaym&count_private=true&show_icons=true"
-            alt="stats-long" //stats
-          />
-        </a>
+        <div>
+          <a href="https://github.com/svijaym">
+            <img
+              align="center"
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=svijaym"
+              alt="stats-short"
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/svijaym">
+            <img
+              align="left"
+              src="https://github-readme-stats.vercel.app/api?username=svijaym&count_private=true&show_icons=true"
+              alt="stats-long"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );

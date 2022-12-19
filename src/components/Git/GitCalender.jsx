@@ -19,7 +19,7 @@ const GitCalender = () => {
       );
     });
   };
-  
+
   return (
     <div>
       <div style={{ textAlign: "center" }}>
@@ -32,12 +32,10 @@ const GitCalender = () => {
         transformData={selectLastHalfYear}
         blockSize={20}
         fontSize={20}
-        // hideColorLegend
-        // hideTotalCount
       >
         <ReactTooltip delayShow={20} html />
       </GitHubCalendar>
-      </div>
+    </div>
   );
 };
 

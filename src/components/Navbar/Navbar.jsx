@@ -20,12 +20,7 @@ export default function Navbar() {
 
   return (
     <>
-      <Box
-        // bg={useColorModeValue("#eaf8f8", "#eaf8f8")}
-        bg="#322659"
-        px={4}
-        className={styles.mainBox}
-      >
+      <Box bg="#322659" px={4} className={styles.mainBox}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}
@@ -80,7 +75,7 @@ export default function Navbar() {
                 spy={true}
                 hashSpy={true}
               >
-                <div className={styles.nav}>About</div>
+                <div className={styles.nav}>About Me</div>
               </Link>
               <Link
                 to="skills"
@@ -154,7 +149,7 @@ export default function Navbar() {
                 spy={true}
                 hashSpy={true}
               >
-                <div className={styles.nav}>About</div>
+                <div className={styles.nav}>About Me</div>
               </Link>
               <Link
                 to="skills"

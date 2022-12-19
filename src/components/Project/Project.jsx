@@ -15,9 +15,10 @@ const projects = [
     link: "https://sugar-cosmetic-lyart.vercel.app/",
     git: "https://github.com/svijaym/Suger-cosmetic-Clone/tree/master",
     about:
-      " Sugar-Cosmetics Clone, Clone of E-commerce website which mainly focuses on beauty/cosmetic products",
+      "This is the clone of E-commerce website named Sugar-Cosmetics which is one of India's fastest-growing premium cosmetic companies,which focuses on beauty/cosmetic products",
     stacks: [
       <SiReact className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
       <SiChakraui className={styles.stackIcon} />,
     ],
   },
@@ -40,9 +41,10 @@ const projects = [
     link: "https://envoy-clone.vercel.app/",
     git: "https://github.com/svijaym/Envoy-Clone/tree/master",
     about:
-      "This is clone of envoy.com website, which mainly focusses to Improve workplace experiences with Envoy visitor management, employee sign in, desk reservations, room booking, and delivery management software. ",
+      "This is clone of envoy.com website, which mainly focusses to Improve workplace experiences with visitor management, employee sign in, desk reservations, room booking, and delivery management software.",
     stacks: [
       <SiReact className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
       <SiChakraui className={styles.stackIcon} />,
     ],
   },
@@ -52,9 +54,10 @@ const projects = [
     link: "https://mentimeter-clone-pi.vercel.app/",
     git: "https://github.com/svijaym/Mentimeter-Clone/tree/master",
     about:
-      "This is clone of mentimeter website , Mentimeter is a website that develops and maintains an eponymous app used to create presentations with real-time feedback.",
+      "This is clone of mentimeter website, Mentimeter is a website that develops and maintains an eponymous app used to create presentations with real-time feedback.",
     stacks: [
       <SiReact className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
       <SiChakraui className={styles.stackIcon} />,
     ],
   },
@@ -63,7 +66,12 @@ export function ProjectsSection() {
   return (
     <div className={styles.projectsSectionCont} id="projects">
       <Fade bottom>
-        <Heading as={"h1"} fontSize={{ base: "xl", md: "3xl" }} mb={8} color='#322659'>
+        <Heading
+          as={"h1"}
+          fontSize={{ base: "xl", md: "3xl" }}
+          mb={8}
+          color="#322659"
+        >
           Projects
         </Heading>
       </Fade>

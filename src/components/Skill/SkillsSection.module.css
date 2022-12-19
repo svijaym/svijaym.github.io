@@ -1,6 +1,6 @@
 .rootCont {
   /* height: 90vh; */
-  width: 100%;
+  width: 85%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -19,26 +19,28 @@
 
 .skillsContFront {
   display: grid;
-  grid-template-columns: repeat(6, 16.6%);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
   margin-bottom: 50px;
+  /* height: auto; */
   /* margin-left: -50px; */
   /* height: 50vh; */
 }
 .skillsContBack {
   display: grid;
-  grid-template-columns: repeat(3, 33.3%);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
   margin-bottom: 50px;
+  height: auto;
   /* height: 50vh; */
 }
 .toolsDiv {
   display: grid;
-  grid-template-columns: repeat(3, 33.3%);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
@@ -79,7 +81,7 @@
   color: rgb(233, 98, 40);
 }
 .cssIcon:hover {
-  color: rgb(37, 75, 221);
+  color: rgba(29, 226, 226, 0.336);
 }
 .nodeIcon:hover {
   color: rgb(95, 151, 89);
@@ -96,7 +98,7 @@
 .expIcon:hover {
   color: black;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 600px) {
   .skillIcon {
     font-size: 30px;
     /* color: rgb(208,135,104); */
@@ -105,7 +107,36 @@
     width: 90%;
   }
   .skillsContFront {
-    grid-template-columns: repeat(3, 33.3%);
+    grid-template-columns: repeat(2, 1fr);
+    /* height: 120vh; */
+  }
+  .skillsContBack {
+    grid-template-columns: repeat(2, 1fr);
+    /* height: 120vh; */
+  }
+  .toolsDiv {
+    grid-template-columns: repeat(2, 1fr);
+    /* height: 120vh; */
+  }
+}
+@media only screen and (max-width: 250px) {
+  .skillIcon {
+    font-size: 30px;
+    /* color: rgb(208,135,104); */
+  }
+  .rootCont {
+    width: 90%;
+  }
+  .skillsContFront {
+    grid-template-columns: repeat(1, 1fr);
+    /* height: 120vh; */
+  }
+  .skillsContBack {
+    grid-template-columns: repeat(1, 1fr);
+    /* height: 120vh; */
+  }
+  .toolsDiv {
+    grid-template-columns: repeat(1, 1fr);
     /* height: 120vh; */
   }
 }

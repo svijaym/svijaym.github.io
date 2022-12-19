@@ -1,7 +1,7 @@
 import { Flex, Heading, Image, Stack, Text } from "@chakra-ui/react";
 import { Box } from "@chakra-ui/react";
 import styles from "./Hero.module.css";
-export default function SplitScreen() {
+export default function Main() {
   return (
     <div id="hero" style={{ width: "85%", margin: "auto" }}>
       {/* style={{ backgroundColor: "#edf2f8" }} */}
@@ -17,6 +17,7 @@ export default function SplitScreen() {
               margin={{ base: "auto", md: "0" }}
               display="flex"
               fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
+              fontFamily="sans-serif"
             >
               Hi{" "}
               <Image
@@ -27,11 +28,12 @@ export default function SplitScreen() {
               />
               ,
             </Box>
-            <Text fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}>
+            <Text fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }} fontFamily="sans-serif">
               I'm{" "}
               <Text
                 fontWeight="bold"
                 fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
+                fontFamily="sans-serif"
               >
                 S Vijayaprasad{" "}
               </Text>{" "}
@@ -40,7 +42,7 @@ export default function SplitScreen() {
               <Text className={styles.Subhead}>A Full Stack Web Developer</Text>
             </Heading>
             <Box>
-              <a href="S Vijayaprasad Resume.pdf" download>
+              <a href="S-Vijayaprasad-Resume.pdf" download>
                 <button
                   style={{
                     backgroundColor: "#ff6326",
@@ -57,13 +59,10 @@ export default function SplitScreen() {
           </Stack>
         </Flex>
         <Flex flex={1} align={"center"} justify={"center"}>
-          <Box w="100%" margin={{ base: "auto", md: "0", sm: "100" }}>
+          <Box w="100%" h="auto" margin={{ base: "auto", md: "0", sm: "100" }}>
             <Image
-              // alt={"Login Image"}
-              // objectFit={"cover"}
-              // w="100%"
               marginTop="20px"
-              boxSize="500px"
+              boxSize="400px"
               borderRadius="2%"
               src={
                 "https://user-images.githubusercontent.com/101625055/207065407-d7b1f180-46b5-4cac-9b93-d8e6998d6424.jpeg"
@@ -75,4 +74,3 @@ export default function SplitScreen() {
     </div>
   );
 }
-// https://user-images.githubusercontent.com/101625055/200088157-840f9dac-62b1-4829-a1bb-b3ebe450b90d.jpg

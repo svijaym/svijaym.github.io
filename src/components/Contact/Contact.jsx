@@ -123,19 +123,6 @@ export default function ContactForm() {
                       px={5}
                       alignItems="flex-start"
                     >
-                      {/* <IconButton
-                        aria-label="facebook"
-                        variant="ghost"
-                        size="lg"
-                        isRound={true}
-                        _hover={{ bg: "#0D74FF" }}
-                        icon={<MdEmail size="30px" />}
-                        onPress={() =>
-                          Linking.openURL("mailto:svijaym6@example.com")
-                        }
-                        title="svijaym6@example.com"
-                      /> */}
-
                       <a
                         href="https://www.linkedin.com/in/s-vijayaprasad/"
                         target="_blank"
@@ -207,7 +194,7 @@ export default function ContactForm() {
                             <Button
                               type="submit"
                               variant="solid"
-                              bg="#0D74FF"
+                              bg="#ff6326"
                               color="white"
                               _hover={{}}
                             >

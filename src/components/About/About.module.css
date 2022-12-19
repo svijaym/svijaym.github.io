@@ -2,7 +2,7 @@
   width: 80%;
   margin: auto;
   text-align: center;
-  height: 90vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -10,7 +10,7 @@
   padding-bottom: 10vh;
   /* background-color: #F7FAFC; */
 }
-.rootCont h1 {
+/* .rootCont h1 {
   color: #ff6225;
   width: 95px;
   margin: 0 auto;
@@ -18,11 +18,11 @@
 .rootCont > p {
   font-size: 40px;
   font-weight: 400;
-}
+} */
 
 .mainCont {
   display: grid;
-  grid-template-columns: 30% 60%;
+  grid-template-columns: 25% 55%;
   gap: 10%;
   text-align: center;
   font-size: 30px;
@@ -34,23 +34,23 @@
   justify-content: center;
   text-align: left !important;
 }
-.mainCont > div > h2 {
+/* .mainCont > div > h2 {
   margin: 0px;
-}
+} */
 
 .profilePic {
   text-align: right;
   width: 100%;
   margin: auto;
   /* border: 2px solid black; */
-  background-color: rgb(194, 195, 201);
+  /* background-color: rgb(194, 195, 201); */
   border-radius: 10px;
 }
 @media only screen and (max-width: 1024px) {
   .rootCont {
     width: 90%;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    /* margin-top: 200px;
+    margin-bottom: 200px; */
   }
   .mainCont {
     display: flex;
@@ -59,10 +59,7 @@
   .mainCont > div {
     text-align: center !important;
   }
-  .profilePicCont {
-    padding: 30px;
-  }
-  .profilePic {
+  /* .profilePic {
     width: 60%;
-  }
+  } */
 }

@@ -7,9 +7,6 @@
   margin: 20px auto;
   padding-top: 20px;
   cursor: pointer;
-  /* border: 1px solid; */
-  /* color: #ff6225; */
-  /* margin-left: 100px; */
 }
 .card:hover{
   color:#383874;
