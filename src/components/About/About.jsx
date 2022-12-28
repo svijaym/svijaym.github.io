@@ -20,7 +20,7 @@ export default function AboutMe() {
           <div>
             <Text
               fontSize={{ sm: "20px", md: "25px", lg: "30px" }}
-              textAlign="center"
+              textAlign="justify"
               fontFamily="sans-serif"
             >
               I am S Vijayaprasad, a Full stack web developer(MERN) upskilled by

@@ -5,10 +5,24 @@ import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiChakraui } from "react-icons/si";
-
+import { SiMongodb } from "react-icons/si";
 import { Fade } from "react-awesome-reveal";
 import { Heading } from "@chakra-ui/react";
 const projects = [
+  {
+    name: "Buffer-Clone",
+    img: "https://user-images.githubusercontent.com/101395093/201607918-ff766e02-f8d2-440e-b52e-b47eaaca8b48.png",
+    link: "https://bluelock.vercel.app/",
+    git: "https://github.com/svijaym/Buffer-Clone",
+    about:
+      "Buffer is a social media management application. It helps in managing multiple social media networks from one place. It is one of the best time saving methods in the world of social media marketing.",
+    stacks: [
+      <SiReact className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
+      <SiChakraui className={styles.stackIcon} />,
+      <SiMongodb className={styles.stackIcon} />,
+    ],
+  },
   {
     name: "Sugarcosmetics-Clone",
     img: "https://user-images.githubusercontent.com/101625055/200111906-55285552-b0c1-45f5-bac2-f5958777a461.png",
@@ -20,19 +34,6 @@ const projects = [
       <SiReact className={styles.stackIcon} />,
       <SiJavascript className={styles.stackIcon} />,
       <SiChakraui className={styles.stackIcon} />,
-    ],
-  },
-  {
-    name: "Tata_1mg-Clone",
-    img: "https://user-images.githubusercontent.com/101625055/200112018-2f7cec10-5dcc-4539-b89e-8070c954d3bc.png",
-    link: "https://resonant-pavlova-516e1c.netlify.app/",
-    git: "https://github.com/svijaym/Tata1-Mg-clone/tree/master",
-    about:
-      "A clone of the healthcare platform. It provides services, including e-pharmacy, diagnostics, e-consultation and health content",
-    stacks: [
-      <SiJavascript className={styles.stackIcon} />,
-      <SiHtml5 className={styles.stackIcon} />,
-      <SiCss3 className={styles.stackIcon} />,
     ],
   },
   {
@@ -59,6 +60,19 @@ const projects = [
       <SiReact className={styles.stackIcon} />,
       <SiJavascript className={styles.stackIcon} />,
       <SiChakraui className={styles.stackIcon} />,
+    ],
+  },
+  {
+    name: "Tata_1mg-Clone",
+    img: "https://user-images.githubusercontent.com/101625055/200112018-2f7cec10-5dcc-4539-b89e-8070c954d3bc.png",
+    link: "https://resonant-pavlova-516e1c.netlify.app/",
+    git: "https://github.com/svijaym/Tata1-Mg-clone/tree/master",
+    about:
+      "A clone of the healthcare platform. It provides services, including e-pharmacy, diagnostics, e-consultation and health content",
+    stacks: [
+      <SiHtml5 className={styles.stackIcon} />,
+      <SiCss3 className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
     ],
   },
 ];

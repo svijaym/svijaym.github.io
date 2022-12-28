@@ -1,6 +1,7 @@
 import { Flex, Heading, Image, Stack, Text } from "@chakra-ui/react";
 import { Box } from "@chakra-ui/react";
 import styles from "./Hero.module.css";
+// import { AiOutlineDownload } from "react-icons/ai";
 export default function Home() {
   return (
     <div id="hero" style={{ width: "85%", margin: "auto" }}>
@@ -56,6 +57,7 @@ export default function Home() {
                 >
                   Resume
                 </button>
+                {/* <AiOutlineDownload/> */}
               </a>
             </Box>
           </Stack>

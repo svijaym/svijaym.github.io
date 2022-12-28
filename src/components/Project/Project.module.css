@@ -111,7 +111,7 @@ a {
 .projInfo {
   width: 90%;
   margin: auto;
-  text-align: left;
+  text-align: justify;
   overflow: hidden;
 }
 .projInfo > p {
