@@ -1,0 +1,44 @@
+.rootCont {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.mainCont {
+  display: grid;
+  grid-template-columns: 25% 55%;
+  gap: 25%;
+  text-align: center;
+  font-size: 30px;
+}
+.mainCont > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left !important;
+}
+
+.profilePic {
+  text-align: right;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 1024px) {
+  .rootCont {
+    width: 90%;
+  }
+  .mainCont {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainCont > div {
+    text-align: center !important;
+  }
+}

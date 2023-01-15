@@ -1,0 +1,120 @@
+.rootCont {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  text-align: center;
+}
+
+.skillsContFront {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.skillsContBack {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  height: auto;
+}
+.toolsDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  margin: auto;
+}
+.skillIcon {
+  font-size: 60px;
+}
+.expSkillIcon {
+  font-size: 31px;
+  font-weight: 470;
+  color: rgb(208, 135, 104);
+}
+
+.reactIcon:hover {
+  color: rgb(94, 211, 243);
+}
+.reduxIcon:hover {
+  color: rgb(118, 76, 183);
+}
+.jsIcon:hover {
+  color: rgb(247, 223, 30);
+}
+.chkIcon:hover {
+  color: rgb(0, 129, 203);
+}
+.htmlIcon:hover {
+  color: rgb(233, 98, 40);
+}
+.cssIcon:hover {
+  color: rgba(29, 226, 226, 0.336);
+}
+.nodeIcon:hover {
+  color: rgb(95, 151, 89);
+}
+.mongoIcon:hover {
+  color: rgb(82, 167, 75);
+}
+.gitIcon:hover {
+  color: rgb(232, 78, 49);
+}
+.expIcon {
+  margin: 0;
+}
+.expIcon:hover {
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+  .skillIcon {
+    font-size: 30px;
+  }
+  .rootCont {
+    width: 90%;
+  }
+  .skillsContFront {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skillsContBack {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .toolsDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 250px) {
+  .skillIcon {
+    font-size: 30px;
+  }
+  .rootCont {
+    width: 90%;
+  }
+  .skillsContFront {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .skillsContBack {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .toolsDiv {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

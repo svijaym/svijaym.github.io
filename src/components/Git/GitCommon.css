@@ -1,0 +1,9 @@
+.git {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 200px;
+  margin: auto;
+}
