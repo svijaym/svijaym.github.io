@@ -60,7 +60,7 @@ export default function ContactForm() {
         mt={0}
         centerContent
         overflow="hidden"
-        marginTop="-10px"
+        marginTop="100px"
       >
         <Flex>
           <Box
