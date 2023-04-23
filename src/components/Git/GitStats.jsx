@@ -3,7 +3,10 @@ import styles from "./GitCommon.css";
 const GitStats = () => {
   return (
     <div className={styles.git}>
-      <div style={{ width: "40%", margin: "auto", marginTop: "30px" }}>
+      <div
+        style={{ width: "40%", margin: "auto", marginTop: "30px" }}
+        id="github-streak-stats"
+      >
         <a href="https://github.com/svijaym">
           <img
             align="left"
@@ -31,6 +34,7 @@ const GitStats = () => {
               // src="https://github-readme-stats.vercel.app/api/top-langs/?username=svijaym"
               src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=svijaym&theme=2077"
               alt="stats-short"
+              id="github-top-langs"
             />
           </a>
         </div>
@@ -41,6 +45,7 @@ const GitStats = () => {
               // src="https://github-readme-stats.vercel.app/api?username=svijaym&count_private=true&show_icons=true"
               src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=svijaym&theme=2077"
               alt="stats-long"
+              id="github-stats-card"
             />
           </a>
         </div>

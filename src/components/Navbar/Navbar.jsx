@@ -21,7 +21,12 @@ export default function Navbar() {
   return (
     <>
       <Box bg="#322659" px={4} className={styles.mainBox} id="nav-menu">
-        <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
+        <Flex
+          h={16}
+          alignItems={"center"}
+          justifyContent={"space-between"}
+          className=".nav-link.home"
+        >
           <IconButton
             size={"md"}
             icon={
@@ -64,6 +69,7 @@ export default function Navbar() {
                 activeClass={styles.active}
                 spy={true}
                 hashSpy={true}
+                className=".nav-link.home"
               >
                 <div className={styles.nav}>Home</div>
               </Link>
@@ -74,6 +80,7 @@ export default function Navbar() {
                 activeClass={styles.active}
                 spy={true}
                 hashSpy={true}
+                className=".nav-link.about"
               >
                 <div className={styles.nav}>About Me</div>
               </Link>
@@ -84,6 +91,7 @@ export default function Navbar() {
                 activeClass={styles.active}
                 spy={true}
                 hashSpy={true}
+                className=".nav-link.skills"
               >
                 <div className={styles.nav}>Skills</div>
               </Link>
@@ -94,6 +102,7 @@ export default function Navbar() {
                 activeClass={styles.active}
                 spy={true}
                 hashSpy={true}
+                className=".nav-link.projects"
               >
                 <div className={styles.nav}>Projects</div>
               </Link>
@@ -104,6 +113,7 @@ export default function Navbar() {
                 activeClass={styles.active}
                 spy={true}
                 hashSpy={true}
+                className=".nav-link.contact"
               >
                 <div className={styles.nav}>Contact</div>
               </Link>

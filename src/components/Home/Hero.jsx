@@ -5,7 +5,7 @@ import styles from "./Hero.module.css";
 export default function Home() {
   return (
     <div id="hero" style={{ width: "85%", margin: "auto" }}>
-      <Stack minH={"80vh"} direction={{ base: "column", md: "row" }}>
+      <Stack minH={"80vh"} direction={{ base: "column", md: "row" }} id="home">
         <Flex p={8} flex={1} align={"center"} justify={"center"}>
           <Stack
             spacing={{ base: "4", md: "5" }}
@@ -43,7 +43,9 @@ export default function Home() {
               </Text>{" "}
             </Text>
             <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
-              <Text className={styles.Subhead} id="user-detail-name">A Full Stack Web Developer</Text>
+              <Text className={styles.Subhead} id="user-detail-name">
+                A Full Stack Web Developer
+              </Text>
             </Heading>
             <Box>
               <a href="S-Vijayaprasad-Resume.pdf" download>
