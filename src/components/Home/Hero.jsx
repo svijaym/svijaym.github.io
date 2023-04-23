@@ -37,12 +37,13 @@ export default function Home() {
                 fontWeight="bold"
                 fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                 fontFamily="sans-serif"
+                id="user-detail-name"
               >
                 S Vijayaprasad{" "}
               </Text>{" "}
             </Text>
             <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
-              <Text className={styles.Subhead}>A Full Stack Web Developer</Text>
+              <Text className={styles.Subhead} id="user-detail-name">A Full Stack Web Developer</Text>
             </Heading>
             <Box>
               <a href="S-Vijayaprasad-Resume.pdf" download>
@@ -54,6 +55,7 @@ export default function Home() {
                     padding: "10px",
                     color: "white",
                   }}
+                  id="resume-button-2"
                 >
                   Resume
                 </button>

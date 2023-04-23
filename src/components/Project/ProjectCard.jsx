@@ -6,7 +6,7 @@ import { Text } from "@chakra-ui/react";
 export function ProjectCard({ name, img, git, link, stacks, about }) {
   return (
     <>
-      <div className={styles.projectCont}>
+      <div className={styles.projectCont} >
         <img src={img} alt="" className={styles.image} />
         <p
           style={{

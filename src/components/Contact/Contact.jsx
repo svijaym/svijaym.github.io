@@ -88,6 +88,7 @@ export default function ContactForm() {
                           color="#DCE2FF"
                           _hover={{ border: "2px solid #0D74FF" }}
                           leftIcon={<MdPhone color="#1970F1" size="20px" />}
+                          id="contact-phone"
                         >
                           +91-8095171210
                         </Button>
@@ -99,6 +100,7 @@ export default function ContactForm() {
                           color="#DCE2FF"
                           _hover={{ border: "2px solid #0D74FF" }}
                           leftIcon={<MdEmail color="#1970F1" size="20px" />}
+                          id="contact-email"
                         >
                           svijaym6@gmail.com
                         </Button>
@@ -122,6 +124,7 @@ export default function ContactForm() {
                       spacing={5}
                       px={5}
                       alignItems="flex-start"
+                      id="contact-github"
                     >
                       <a
                         href="https://www.linkedin.com/in/s-vijayaprasad/"

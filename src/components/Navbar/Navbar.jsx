@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <>
-      <Box bg="#322659" px={4} className={styles.mainBox}>
+      <Box bg="#322659" px={4} className={styles.mainBox} id="nav-menu">
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}
@@ -120,6 +120,7 @@ export default function Navbar() {
                     padding: "5px",
                     color: "white",
                   }}
+                  id="resume-button-1"
                 >
                   Resume
                 </button>
@@ -191,6 +192,7 @@ export default function Navbar() {
                       padding: "5px",
                       color: "white",
                     }}
+                    id="resume-button-1"
                   >
                     Resume
                   </button>
