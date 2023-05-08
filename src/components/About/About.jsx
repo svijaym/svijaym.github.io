@@ -7,8 +7,11 @@ export default function AboutMe() {
     <div className={styles.rootCont} id="about">
       <Fade bottom>
         {/* fontSize={{ base: "3xl", md: "2xl" }} */}
-        <Heading color="#322659">About Me</Heading>
+        <Heading color="#322659" id="user-detail-intro">
+          About Me
+        </Heading>
         <br />
+        <Text id="about.about.section">S Vijayaprasad</Text>
         <div className={styles.mainCont}>
           <div>
             <img
@@ -22,6 +25,7 @@ export default function AboutMe() {
               fontSize={{ sm: "20px", md: "25px", lg: "30px" }}
               textAlign="justify"
               fontFamily="sans-serif"
+              id="user-detail-intro"
             >
               I am S Vijayaprasad, a Full stack web developer(MERN) upskilled by
               Masai School. I did my graduation in Mechanical Engineering from

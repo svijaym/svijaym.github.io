@@ -124,7 +124,6 @@ export default function ContactForm() {
                       spacing={5}
                       px={5}
                       alignItems="flex-start"
-                      id="contact-github"
                     >
                       <a
                         href="https://www.linkedin.com/in/s-vijayaprasad/"
@@ -135,6 +134,7 @@ export default function ContactForm() {
                           aria-label="discord"
                           variant="ghost"
                           size="lg"
+                          id="contact-linkedin"
                           isRound={true}
                           _hover={{ bg: "#0D74FF" }}
                           icon={<BsLinkedin size="28px" />}
@@ -149,6 +149,7 @@ export default function ContactForm() {
                           aria-label="github"
                           variant="ghost"
                           size="lg"
+                          id="contact-github"
                           isRound={true}
                           _hover={{ bg: "#0D74FF" }}
                           icon={<BsGithub size="32px" />}
